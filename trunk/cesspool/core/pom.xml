@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <parent>
+    <artifactId>cesspool-parent</artifactId>
+    <groupId>com.google.code.cesspool</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <name>Cesspool Core</name>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.code.cesspool</groupId>
+  <artifactId>core</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  </dependencies>
+</project>
