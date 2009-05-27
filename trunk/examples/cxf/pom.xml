@@ -1,20 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.example.cxf</groupId>
-    <artifactId>cxf-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <groupId>com.example.cxf.doubleit</groupId>
-  <name>doubleit parent pom</name>
-  <artifactId>doubleit-parent</artifactId>
+  <groupId>com.example.cxf</groupId>
+  <name>cxf parent pom</name>
+  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>cxf-parent</artifactId>
   <packaging>pom</packaging>
-  <description>This tutorial shows how to create a WSDL-first web
-    service using Apache CXF. We'll be creating a very simple DoubleIt
-    web service, one that takes an integer from the SOAP client and returns the number doubled in value. </description>
+  <description>
+    parent of all cxf examples
+  </description>
   <url>http://www.jroller.com/gmazza/entry/creating_a_wsdl_first_web1</url>
+  <properties>
+    <cxf.version>2.2.1</cxf.version>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -47,9 +45,21 @@
   </dependencies>
 
   <modules>
-    <module>wsdl</module>
-    <module>client</module>
-    <module>war</module>
+    <module>contactus</module>
+    <module>doubleit</module>
   </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
 
 </project>
