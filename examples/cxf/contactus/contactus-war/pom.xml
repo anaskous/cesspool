@@ -9,7 +9,7 @@
   <artifactId>contactus-war</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>contactus webservice webapp</name>
+  <name>contactus war</name>
   <url>http://maven.apache.org</url>
   <build>
     <finalName>contactus-webservice</finalName>
@@ -32,7 +32,7 @@
           <scanIntervalSeconds>3</scanIntervalSeconds>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-              <port>8080</port>
+              <port>8484</port>
               <maxIdleTime>60000</maxIdleTime>
             </connector>
           </connectors>

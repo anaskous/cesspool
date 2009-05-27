@@ -8,7 +8,7 @@
   </parent>
   <artifactId>contactus-service</artifactId>
   <packaging>jar</packaging>
-  <name>contactus sample web service</name>
+  <name>contactus service</name>
   <build>
   </build>
   <dependencies>

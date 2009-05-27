@@ -11,7 +11,7 @@
   <packaging>pom</packaging>
   <name>contactus parent pom</name>
   <modules>
-    <module>contactus</module>
+    <module>contactus-service</module>
     <module>contactus-war</module>
     <module>contactus-client</module>
   </modules>
