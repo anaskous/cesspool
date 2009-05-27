@@ -47,9 +47,9 @@
   </dependencies>
 
   <modules>
-    <module>wsdl</module>
-    <module>client</module>
-    <module>war</module>
+    <module>doubleit-wsdl</module>
+    <module>doubleit-client</module>
+    <module>doubleit-war</module>
   </modules>
 
 </project>
