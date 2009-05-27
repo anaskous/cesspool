@@ -1,0 +1,7 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:DoubleIt xmlns:ns2="http://www.example.org/DoubleIt">
+         <numberToDouble>0</numberToDouble>
+      </ns2:DoubleIt>
+   </soap:Body>
+</soap:Envelope>
