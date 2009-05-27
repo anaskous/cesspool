@@ -6,7 +6,7 @@
     <artifactId>contactus-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>contactus-webservice</artifactId>
+  <artifactId>contactus-war</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>contactus webservice webapp</name>
@@ -43,7 +43,7 @@
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>contactus</artifactId>
+      <artifactId>contactus-service</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
       <scope>compile</scope>

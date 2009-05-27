@@ -48,7 +48,7 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>contactus</artifactId>
+      <artifactId>contactus-service</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
       <scope>compile</scope>
