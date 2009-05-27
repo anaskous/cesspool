@@ -9,7 +9,7 @@
   <artifactId>contactus-client</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>contactus sample web service client</name>
+  <name>contactus client</name>
   <url>http://www.enterrasolutions.com</url>
   <build>
     <plugins>
