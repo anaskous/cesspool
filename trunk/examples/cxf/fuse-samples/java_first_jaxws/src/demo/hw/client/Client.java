@@ -20,15 +20,12 @@
 package demo.hw.client;
 
 import java.util.Map;
-import java.util.Map.Entry;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
 import javax.xml.ws.soap.SOAPBinding;
 
-import demo.hw.server.HelloWorld;
-import demo.hw.server.User;
-import demo.hw.server.UserImpl;
+import demo.hw.server.*;
 
 public final class Client {
 
