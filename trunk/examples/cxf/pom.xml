@@ -47,6 +47,7 @@
   <modules>
     <module>contactus</module>
     <module>doubleit</module>
+    <module>fuse-samples</module>
   </modules>
 
   <build>
