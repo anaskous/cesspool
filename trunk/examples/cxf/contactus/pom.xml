@@ -15,4 +15,7 @@
     <module>contactus-war</module>
     <module>contactus-client</module>
   </modules>
+  <properties>
+  	<deploy.port>8484</deploy.port>
+	</properties>
 </project>
