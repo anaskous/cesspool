@@ -32,7 +32,7 @@
           <scanIntervalSeconds>3</scanIntervalSeconds>
           <connectors>
             <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-              <port>8484</port>
+              <port>${deploy.port}</port>
               <maxIdleTime>60000</maxIdleTime>
             </connector>
           </connectors>
