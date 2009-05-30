@@ -8,13 +8,14 @@
         http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd"
   default-autowire="byName">
 
+  <context:property-placeholder location="classpath:contactus-client.properties"/>
 
   <!-- Factory to create the dynamic proxy -->
   <bean id="contactUsService" class="com.enterra.contactus.ContactUsService"
     factory-bean="clientFactory" factory-method="create" />
   <bean id="clientFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
     <property name="serviceClass" value="com.enterra.contactus.ContactUsService" />
-    <property name="address" value="http://localhost:8080/contactus" />
+    <property name="address" value="http://localhost:${deploy.port}/contactus" />
     <property name="serviceFactory" ref="jaxws-and-aegis-service-factory" />
   </bean>
 </beans>
