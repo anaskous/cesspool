@@ -3,6 +3,7 @@ package com.enterra.contactus.client;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -14,6 +15,7 @@ import static org.junit.Assert.*;
 
 @ContextConfiguration(locations = {"classpath:applicationContext-contactus-client.xml", 
         "classpath:applicationContext-contactus-cxf.xml"})
+//@Ignore
 public class ContactUsTest extends AbstractJUnit4SpringContextTests {
 
     private ContactUsService contactUsService;
